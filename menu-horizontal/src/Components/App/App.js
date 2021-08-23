@@ -1,14 +1,26 @@
 import React from 'react'
 import './App.css';
-import Sections from '../Sections.js'
+import { Route, Switch} from 'react-router'
+
+import Header from '../Header/Header';
+import Home from '../Home/Home';
 
 function App() {
-  return (
+  return (   
     <div>
+      <Header />
 
-      <Sections />
+      <main>
+        <Switch>
+          <Route exact path="/" render={(props) => <Home />}>
+
+          </Route>
+
+        </Switch>
+      </main>
 
     </div>
+    
   );
 }
 
