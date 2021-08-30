@@ -1,7 +1,8 @@
 /* configuração do componente title */
-
 .titulo {
-  height: 8vh;
+  height: 6vh;
+  width: 100%;
   background-color: rgb(166, 245, 159);
   border: 1px solid darkorange;
+  text-align: center;
 }

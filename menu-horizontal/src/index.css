@@ -1,5 +1,5 @@
 body {
-  position: absolute;
+  position: sticky;
   background-color: rgba(235, 243, 242, 0.0993);
   margin: 0 auto;
   border: 0px solid red;
