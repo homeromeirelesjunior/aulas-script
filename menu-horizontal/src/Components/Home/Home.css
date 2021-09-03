@@ -14,3 +14,8 @@ footer {
   height: 90vh;
   background-color: silver;
 }
+
+#logo {
+  width: 320px;
+  height: 160px;
+}

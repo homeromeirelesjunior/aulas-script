@@ -13,6 +13,9 @@ export default function Contatos() {
                     <li><Link to="/contatos" > Email</Link></li>
                     <li><Link to="/contatos" > Facebook</Link></li>
                     <li><Link to="/contatos" > WhatsApp</Link></li>
+                    <li><Link to="/contatos" > Instagram</Link></li>
+                    <li><Link to="/contatos" > Twitter</Link></li>
+                    <li><Link to="/contatos" > Linkedin</Link></li>
                     <li><Link to="/contatos" > Sinal de Fumaça</Link></li>
                 </ul>
 
